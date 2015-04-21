@@ -1,4 +1,6 @@
-# webmaker-play
-Prototype for Webmaker App play mode.
+# Webmaker Play Prototype
+Prototype for Webmaker App play mode with sample content.
 
-Needs to run on a local server in order for less.js to work correctly.
+
+# To Run
+Run this on a server locally in order for LESS to work properly. ```load.html``` is the discover view.
