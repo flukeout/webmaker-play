@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <link rel="stylesheet/less" href="css/style.less" type="text/css">
+
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/hammer.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.hammer.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="js/colors.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/projects.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+      less = {
+        env: "development",
+        async: false,
+        fileAsync: false,
+        poll: 1000,
+        functions: {},
+        dumpLineNumbers: "comments",
+        relativeUrls: false,
+        rootpath: ":/a.com/"
+      };
+    </script>
+    <script src="js/less.js"></script>
+    <meta name="viewport" content="width=360, user-scalable=no">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#72a7fc">
+  </head>
+
+  <body mode="aerial">
+
+      <div class="all-wrapper">
+
+
+          <div class="zen-indicator">
+            <div direction="up" class="dot"></div>
+            <div direction="down" class="dot"></div>
+            <div direction="left" class="dot"></div>
+            <div direction="right" class="dot"></div>
+          </div>
+
+
+        <div class="zoomer">
+          <div class="panner not-animating" panx="0" pany="0">
+            <div class="tile-grid"></div>
+          </div>
+        </div>
+
+        <div class="top-ui">
+          <a href="load.html" class="back"></a>
+            <div class="title">How to Make Yam Fries!</div>
+        </div>
+
+        <div class="bottom-ui">
+          <div action="zoom-out" class="control-icon"></div>
+          <div action="zoom-in" class="control-icon"></div>
+          <div action="edit" class="control-icon"></div>
+          <div action="add" class="control-icon"></div>
+        </div>
+
+
+
+      </div>
+
+  </body>
+</html>

@@ -1,0 +1,104 @@
+
+.loader {
+    background: #e9ebf0;
+
+    .loader-wrapper {
+        width: 360px;
+        height:100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .header {
+        box-shadow: 0px 0px 2px rgba(0,0,0,.5);
+        background: #69a0fc;
+        color: white;
+        padding: 16px 25px;
+        font-size: 18px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: 99999;
+    }
+
+    ul {
+        padding: 65px 15px 15px 15px;
+    }
+
+    li {
+        background: white;
+        display: block;
+        box-shadow: 0px 1px 2px rgba(0,0,0,.3);
+        border: solid 2px white;
+        margin-bottom: 10px;
+        padding: 1px;
+        cursor: pointer;
+        position: relative;
+
+    }
+
+    .hearts {
+        position: absolute;
+        right: 10px;
+        top: 11px;
+        color: black;
+        font-size: 14px;
+        background: ~"url(heart.png)";
+        background-position: 3px left;
+        background-repeat: no-repeat;
+        background-size: 14px;
+        padding-left: 17px;
+        opacity: .3;
+    }
+
+
+    li .preview {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+    }
+
+    [project=yams] .preview {
+        background-image: ~"url(yams/yamfries-01.png)";
+    }
+
+    [project=onedirection] .preview {
+        background-image: ~"url(one-direction/1D-tile-examples-01.png)";
+    }
+    [project=wedding] .preview {
+        background-image: ~"url(wedding/J_J-tile-examples-1.png)";
+    }
+
+    [project=atkins] .preview {
+        background-image: ~"url(atkins/atkins_2.jpg)";
+    }
+
+    [project=comic] .preview {
+        background-image: ~"url(comics/comics-01.png)";
+    }
+
+    [project=sandwiches] .preview {
+        background-image: ~"url(sandwiches/NYT-tile-examples-6.png)";
+    }
+
+    .preview {
+        width: 100%;
+        padding-bottom: 120%;
+    }
+
+    a {
+        text-align: center;
+        display: block;
+        color: #888;
+        text-decoration: none;
+        background: rgba(255,255,255,.15);
+
+        border-radius: 5px;
+        font-size: 14px;
+        text-align: left;
+        margin: 0;
+        padding: 10px 10px 11px 10px;
+    }
+}

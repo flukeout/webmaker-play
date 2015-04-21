@@ -1,0 +1,6 @@
+{
+  "name": "Webmaker",
+  "start_url": "load.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
