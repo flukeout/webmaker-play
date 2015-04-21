@@ -1,3 +1,119 @@
+var path = {
+    "background": "#000000",
+    "title" : "Needle Path",
+    "titlecolor" : "#000000",
+    "startX" : 1,
+    "startY" : 0,
+    "startZoom" : "semi",
+    "tiles" : [
+        {
+            "x" : 1,
+            "y" : 0,
+            "img" : "path/dogmountain_1-0.png"
+        },
+        {
+            "x" : 0,
+            "y" : 1,
+            "img" : "path/dogmountain_0-1.png"
+        },
+        {
+            "x" : 1,
+            "y" : 1,
+            "img" : "path/dogmountain_1-1.png"
+        },
+        {
+            "x" : 1,
+            "y" : 2,
+            "img" : "path/dogmountain_1-2.png"
+        },
+        {
+            "x" : 1,
+            "y" : 3,
+            "img" : "path/dogmountain_1-3.png"
+        },
+        {
+            "x" : 1,
+            "y" : 4,
+            "img" : "path/dogmountain_1-4.png"
+        },
+        {
+            "x" : 2,
+            "y" : 1,
+            "img" : "path/dogmountain_2-1.png"
+        },
+        {
+            "x" : 2,
+            "y" : 3,
+            "img" : "path/dogmountain_2-3.png"
+        },
+        {
+            "x" : 2,
+            "y" : 4,
+            "img" : "path/dogmountain_2-4.png"
+        },
+        {
+            "x" : 3,
+            "y" : 0,
+            "img" : "path/dogmountain_3-0.png"
+        },
+        {
+            "x" : 3,
+            "y" : 1,
+            "img" : "path/dogmountain_3-1.png"
+        },
+        {
+            "x" : 3,
+            "y" : 2,
+            "img" : "path/dogmountain_3-2.png"
+        },
+        {
+            "x" : 3,
+            "y" : 4,
+            "img" : "path/dogmountain_3-4.png"
+        },
+        {
+            "x" : 4,
+            "y" : 1,
+            "img" : "path/dogmountain_4-1.png"
+        },
+        {
+            "x" : 4,
+            "y" : 2,
+            "img" : "path/dogmountain_4-2.png"
+        },
+        {
+            "x" : 4,
+            "y" : 3,
+            "img" : "path/dogmountain_4-3.png"
+        },
+        {
+            "x" : 4,
+            "y" : 4,
+            "img" : "path/dogmountain_4-4.png"
+        },
+        {
+            "x" : 5,
+            "y" : 3,
+            "img" : "path/dogmountain_5-3.png"
+        },
+        {
+            "x" : 6,
+            "y" : 3,
+            "img" : "path/dogmountain_6-3.png"
+        },
+        {
+            "x" : 7,
+            "y" : 3,
+            "img" : "path/dogmountain_7-3.png"
+        },
+        {
+            "x" : 6,
+            "y" : 2,
+            "img" : "path/dogmountain-20.png"
+        }
+    ]
+};
+
 var wedding = {
     "background": "white",
     "title" : "Meet One Direction",

@@ -324,6 +324,8 @@ function buildTiles(){
         project = comic;
     } else if (projectName == "wedding"){
         project = wedding;
+    } else if (projectName == "path"){
+        project = path;
     } else if (projectName == "sandwiches"){
         project = sandwiches;
     } else if (projectName == "onedirection"){
